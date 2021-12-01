@@ -1,0 +1,10 @@
+import './home.css';
+
+function Home() {
+  return (
+    <div className="home_container">
+    </div>
+  );
+}
+
+export default Home;
