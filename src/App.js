@@ -4,14 +4,16 @@ import Carousel from './components/Carousel';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Header from './components/Header';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
+        <Header/>
       </header>
-      <body>
+      <body>        
         <Home/>
         <Carousel/>
         <About/>
