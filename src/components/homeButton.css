@@ -1,4 +1,66 @@
-.homeButton{
+.homeButton {
+    width: 15vw;
     height: 80px;
-    width: 20vw;
+    border: none;
+    outline: none;
+    color: var(--color-black);
+    background: var(--color-pink);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    /* border: solid 1px var(--color-blue); */
+    border-radius: 20px;
+}
+
+.homeButton:active {
+    box-shadow: none;
+	position: relative;
+    top: .5em;
+}
+
+.homeButton:before {
+    content: '';
+    background: linear-gradient(45deg, var(--color-blue), var(--color-pink), white);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 3px);
+    height: calc(100% + 3px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 20px;
+}
+
+/* .homeButton:active {
+    color: #000
+} */
+/* 
+.homeButton:active:after {
+    background: transparent;
+}  */
+
+ .homeButton:hover:before {
+    opacity: 1;
+} 
+
+.homeButton:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--color-white);
+    left: -4px;
+    top: -4px;
+    border-radius: 20px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }

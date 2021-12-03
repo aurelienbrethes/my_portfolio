@@ -25,3 +25,9 @@ ul {
     --color-blue: #00ffff;
     --color-white: white;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Import des polices google */

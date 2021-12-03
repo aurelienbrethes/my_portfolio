@@ -12,7 +12,7 @@ function Home() {
   ]
   
   return (
-    <div className="home_container">
+    <div className="home_container" id="home">
       <img src={logo} alt="aurelien brethes logo" />
       <nav className="buttons_container">
         {homeButtons.map( e =>
