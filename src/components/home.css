@@ -1,5 +1,5 @@
 .home_container{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,12 @@
 
 .menu_container{
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons_container{
+    width: 100vw;
     display: flex;
     justify-content: space-around;
 }

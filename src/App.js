@@ -13,13 +13,13 @@ function App() {
       <header>
         <Header/>
       </header>
-      <body>        
+      <main>        
         <Home/>
         <Carousel/>
         <About/>
         <Skills/>
         <Contact/>
-      </body>
+      </main>
     </div>
   );
 }
