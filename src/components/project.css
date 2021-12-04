@@ -1,0 +1,38 @@
+.project_container{
+    width: 100%;
+    height: 100%;
+}
+
+.mini_card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    width: 20vw;
+    padding: 20px;
+    background-color: var(--color-white);
+    border-radius: 40px;
+    border-bottom: solid 5px var(--color-pink);
+    border-right: solid 3px var(--color-pink);
+}
+
+.project_container img {
+    height: 60% ;
+    max-width: 90%;
+}
+
+.project_container button{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: var(--color-white);
+}
+
+.modal{
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%; 
+}

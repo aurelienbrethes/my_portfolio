@@ -13,9 +13,10 @@ ul {
     list-style-type: none;
     }
 
-/* h1{
-    font-family: ;
-} */
+/* Polices */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
 
 /* Déclaration de variables */
 
@@ -25,9 +26,49 @@ ul {
     --color-blue: #00ffff;
     --color-white: white;
   }
-
-  html {
+  
+html {
     scroll-behavior: smooth;
-  }
+}
 
-  /* Import des polices google */
+.App {   
+    overflow-y: hidden;
+    background: linear-gradient(0deg, rgba(27, 27, 27, 0.98), rgba(27, 27, 27, 0.98)), url("./components/background_general.jpg");
+    background-size: contain;
+}
+
+.App h1, h2, h3, button, a {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+}
+
+.App a {
+    font-size: 10px;
+    text-shadow: 1px 1px var(--color-pink);
+}
+
+.App h1 {
+    font-size: 30px;
+    margin: 10vh;
+    color: var(--color-white);
+    text-shadow: 1px 1px var(--color-pink);
+}
+
+.App h2 {
+    font-size: 18px;
+}
+
+.App h3 {
+    font-size: 16px;
+    margin: 2vh;
+    text-align: center;
+}
+
+.App button {
+    font-size: 14px;
+}
+
+.App p, span {
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+}

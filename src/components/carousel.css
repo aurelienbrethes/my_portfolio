@@ -1,5 +1,18 @@
 .carousel_container{
-    background-color:cadetblue;
+    position: relative;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+}
+
+.cards_container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
 }

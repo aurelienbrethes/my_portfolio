@@ -1,5 +1,5 @@
 import './home.css';
-import logo from './aurelien_brethes_logo.gif';
+import logo from './logo_homepage.gif';
 import HomeButton from './HomeButton';
 
 function Home() {

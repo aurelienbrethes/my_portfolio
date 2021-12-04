@@ -1,10 +1,7 @@
 import './header.css';
-import logo from '../components/aurelien_brethes_logo.gif';
-import { Link } from "react-router-dom";
+import logo from '../components/logo_header.gif';
 
 function Header({wheel}) {
-
-  let headerClass = "displayNone";
 
   return (
     <div className={wheel ? "header_container" : "displayNone"}>
