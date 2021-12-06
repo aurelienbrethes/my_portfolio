@@ -15,7 +15,7 @@ const Modal = ({titre, image, description, tech, setShowModal, link}) => {
         <div className = "close_modal" role="button" onClick={() => handleParentsClick() }>
             <div className="modal_container" onClick={(e) => handleChildClick(e)}>            
                 <h3>{titre}</h3>
-                <a href={link}>
+                <a href={link} target="_blank">
                     <img src={image} id="logo_project" alt="logo du projet"/>
                 </a>
                 <p>{description}</p>
