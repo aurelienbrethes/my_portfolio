@@ -2,7 +2,7 @@ import './project.css';
 import { useState } from 'react';
 import Modal from './Modal';
 
-function Project({titre, tech, image, description, close, setClose}) {
+function Project({titre, tech, image, description, link}) {
 
     const [showModal, setShowModal] = useState(false);
 
@@ -13,9 +13,7 @@ function Project({titre, tech, image, description, close, setClose}) {
         if ( !showModal ){
             setShowModal(true);
         }
-    }
-
-  
+    }  
 
   return (
     <div className="project_container">
@@ -31,6 +29,7 @@ function Project({titre, tech, image, description, close, setClose}) {
             tech={tech}
             description={description}
             setShowModal={setShowModal}
+            link={link}
             />
         </div>        
     </div>

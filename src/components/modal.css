@@ -11,6 +11,27 @@
     border-radius: 100px;
     border-bottom: solid 5px var(--color-blue);
     border-right: solid 2px var(--color-blue);
+    position: fixed;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal_container a{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.close_modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: var(--color-black);
 }
 
 #logo_project {

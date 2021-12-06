@@ -37,14 +37,17 @@ html {
     background-size: contain;
 }
 
-.App h1, h2, h3, button, a {
+.App h1, h2, h3, button {
     font-family: 'Press Start 2P', cursive;
     font-weight: bold;
 }
 
 .App a {
     font-size: 10px;
-    text-shadow: 1px 1px var(--color-pink);
+    font-family: 'Press Start 2P', cursive;
+    /* text-shadow: 1px 1px var(--color-pink); */
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .App h1 {
@@ -68,7 +71,7 @@ html {
     font-size: 14px;
 }
 
-.App p, span {
+.App p, span, li {
     font-family: 'VT323', monospace;
     font-size: 25px;
 }

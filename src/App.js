@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import Home from './components/Home';
-import Carousel from './components/Carousel';
+import Projects from './components/Projects';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
@@ -29,8 +29,8 @@ function App() {
       <main>        
         <Home/>
         <About/>
-        <Carousel/>        
-        <Skills/>
+        <Projects/>        
+        {/* <Skills/> */}
         <Contact/>
       </main>
     </div>
