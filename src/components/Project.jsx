@@ -13,9 +13,7 @@ function Project({titre, tech, image, description, close, setClose}) {
         if ( !showModal ){
             setShowModal(true);
         }
-    }
-
-  
+    }  
 
   return (
     <div className="project_container">
