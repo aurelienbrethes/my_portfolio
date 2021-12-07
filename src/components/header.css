@@ -43,6 +43,9 @@
     justify-content: space-around;
     align-items: center;
     color: white;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: 14px;
 }
 
 #logo_header {
