@@ -2,16 +2,14 @@ import './project.css';
 import { useState } from 'react';
 import Modal from './Modal';
 
-function Project({titre, tech, image, description, link}) {
+function Project({titre, tech, image, description, link }) {
 
     const [showModal, setShowModal] = useState(false);
-
-    console.log(showModal)
 
     const openModal = () => {
 
         if ( !showModal ){
-            setShowModal(true);
+            setShowModal(true)
         }
     }  
 
