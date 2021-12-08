@@ -1,7 +1,20 @@
 import './header.css';
 import logo from '../components/logo_header.gif';
+import {useState} from 'react';
 
 function Header({wheel}) {
+
+  const [showLinks, setShowLinks] = useState(false);
+
+  let active = 'navbar-burger';
+
+  if (showLinks === false) {
+    active += ' not-active';
+  } else {
+    active += ' active';
+  }
+
+  // className={showLinks ? "active" : "displayNone"}
 
   return (
     <div className={wheel ? "header_container" : "displayNone"}>
@@ -35,6 +48,9 @@ function Header({wheel}) {
             </a>
           </li>     
       </ul>
+      <button type="button" className={active} onClick={() => setShowLinks(!showLinks)}>
+          <span className="burger-line" />
+        </button>
     </div>
   );
 }
