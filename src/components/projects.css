@@ -17,3 +17,13 @@
     width: 100%;
     z-index: 1;
 }
+
+@media screen and (max-width: 1010px) {
+
+    .carousel_container{
+        height : 75vh;
+    }
+    .cards_container{
+        height : 40vh;
+    }
+}

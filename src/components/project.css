@@ -19,8 +19,8 @@
 }
 
 .project_container img {
-    height: 60% ;
-    max-width: 90%;
+    height: auto ;
+    max-width: 100%;
 }
 
 .project_container button{
@@ -35,4 +35,20 @@
     margin-top: 50px;
     width: 100%;
     height: 100%; 
+}
+
+
+@media screen and (max-width: 1010px) {
+    .mini_card{
+        height : 30vh
+    }
+
+    .mini_card h3{
+        height : 3vh
+    }
+
+    .project_container img {
+        height: 40% ;
+        max-width: 100%;
+    }
 }

@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="contact_container" id="contact">
        <h1>Contactez-moi !</h1>
-      <section className="card_container">       
+      <section className="card_container" id="contact_card">       
         <ul>
           <li>email : <a href="mailto:aurelienbrethes@gmail.com "> aurelienbrethes@gmail.com</a></li>
           <li>tel : <a href="tel:+0752668535"> 07 52 66 85 35</a></li>

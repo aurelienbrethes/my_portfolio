@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    width: 100%;
 }
 
 .close_modal{
@@ -36,6 +37,7 @@
 
 #logo_project {
     width: 100%;
+    height: auto;
 }
 
 #cross{
@@ -47,6 +49,14 @@
     display: none;
 }
 
-.displayNone{
-    display: none;
+@media screen and (max-width: 1010px) {
+
+    .modal_container{
+        min-height: inherit;
+        height: 70vh;
+    }
+
+    .logo_project{
+        width: 70%;
+    }
 }

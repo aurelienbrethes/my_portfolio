@@ -55,3 +55,20 @@
 .displayNone{
     display: none;
 }
+
+
+@media screen and (max-width: 1010px) {
+
+    .header_container ul {
+        width: 70%;
+    }
+
+    .header_container ul li {  
+        height: 25%;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .header_container ul li a {
+        font-size: 10px;
+    }
+}

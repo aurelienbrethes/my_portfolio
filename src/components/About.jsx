@@ -4,8 +4,8 @@ import fleche from '../components/fleche.gif'
 function About() {
   return (
     <div className="about_container" id="about">
-      <section className="card_container">
-        <h2>Bienvenue sur mon Portfolio</h2>
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <section className="card_container">        
         <p>Ce site a pour but de me présenter brièvement et de référencer tous mes projets. Il sera régulièrement mis à jour, et évoluera au rythme de mon acquisition de compétences. <br />
           Je m'appelle Aurélien Brethes, j'ai 29 ans, et je suis actuellement une formation de développeur web et web mobile au sein de la <a href="https://www.wildcodeschool.com/fr-FR">Wild Code School de Biarritz</a>. De technicien en électronique à technico-commercial, j'ai passé 10 ans à chercher ma voie, accumulant les expériences, aussi variées que formatrices.
           Attiré depuis toujours par le numérique et les nouvelles technologies, et après un an de travail en autodidacte, j'ai décidé de rejoindre une formation sérieuse dans une école renommée afin de faire de ma nouvelle passion mon futur métier.

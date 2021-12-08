@@ -18,7 +18,7 @@ function Skills() {
         <aside className="aside_container">
           <h2>Front-end</h2>
           <div className="logo_container">
-            <img src={vanilla} alt="vanilla" />
+            <img src={vanilla} id="vanilla" alt="vanilla" />
             <img src={react} alt="react" />
           </div>
         </aside>
@@ -27,7 +27,7 @@ function Skills() {
           <div className="logo_container">
             <img src={js} alt="js" />
             <img src={mysql} alt="mysql" />
-            <img src={nodejs} alt="node js" />
+            <img src={nodejs} alt="node js" id="nodejs" />
           </div>
         </aside>
         <aside className="aside_container">

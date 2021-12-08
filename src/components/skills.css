@@ -42,3 +42,29 @@
 .aside_container div img{
     height: 80px;
 }
+
+@media screen and (max-width: 1010px) {
+
+    .skills_container h1{
+        padding-bottom: 70px;
+    }
+
+    .aside_container{
+        height: 40vh;
+    }
+
+    #nodejs{
+        width:90%;
+        height: auto;
+    }
+
+    .logo_container{
+        height:80%;
+        margin-top: 30px;
+    }
+
+    #vanilla{
+        width: 95%;
+        height:auto;
+    }
+}

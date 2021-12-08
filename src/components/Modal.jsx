@@ -1,6 +1,5 @@
 import './modal.css';
 import cross from './cross.png';
-import { useEffect } from 'react';
 
 const Modal = ({titre, image, description, tech, setShowModal, link, }) => {
 

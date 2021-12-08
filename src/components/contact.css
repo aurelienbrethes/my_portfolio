@@ -3,7 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100vw;
     border-bottom: solid 1px var(--color-blue);
+}
+
+@media screen and (max-width: 1010px) {
+
+    .contact_container h1{
+        padding-bottom: 100px;
+    }
+
+    #contact_card{
+        margin-bottom:50px;
+    }
 }
