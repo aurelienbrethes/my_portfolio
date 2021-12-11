@@ -22,6 +22,11 @@
 
 @media screen and (max-width: 600px) {
 
+    .contact_container{
+        min-height: inherit;
+        height: 70vh;
+    }
+
     .card_container ul li{
         font-size: 14px;
     }
