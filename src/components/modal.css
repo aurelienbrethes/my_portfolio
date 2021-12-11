@@ -53,7 +53,29 @@
 
     .modal_container{
         min-height: inherit;
-        height: 70vh;
+        height: 80vh;
+    }
+
+    .modal_container p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .logo_project{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .modal_container{
+        height: 80vh;
+        border-radius: 50px;
+    }
+
+    .modal_container p {
+        font-size: 17px;
+        text-align: justify;
     }
 
     .logo_project{

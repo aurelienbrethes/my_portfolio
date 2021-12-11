@@ -4,7 +4,7 @@ function Burger({showLinks, setShowLinks}) {
 
 let brugerClass = "burger-line";
 
-if ( !showLinks ){
+if ( showLinks ){
     brugerClass += " active";
 }
 

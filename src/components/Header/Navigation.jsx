@@ -3,7 +3,7 @@ import './navigation.css';
 function Navigation({showLinks}) {
 
   return (
-       <ul className= { showLinks? 'navbar' : 'navlist'}>
+       <ul className= { showLinks? 'navlist' : 'navbar'}>
           <li>
             <a href="#home">
               Accueil

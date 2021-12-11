@@ -18,3 +18,16 @@
         margin-bottom:50px;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+
+    .card_container ul li{
+        font-size: 14px;
+    }
+
+    .card_container ul li a{
+        font-size: 8px;
+        font-style: inherit;
+    }
+}
