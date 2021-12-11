@@ -1,5 +1,4 @@
 .mini_card{
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,13 +24,6 @@
     background-color: var(--color-white);
 }
 
-/* .modal{
-    position: absolute;
-    margin-top: 50px;
-    width: 100%;
-    height: 100%; 
-} */
-
 
 @media screen and (max-width: 1010px) {
     .mini_card{
@@ -55,6 +47,10 @@
         height : 25vh;
         width : 30vw;
         margin-bottom: 20px;
+    }
+
+    .mini_card h3 {
+        font-size: 12px;
     }
 
 }

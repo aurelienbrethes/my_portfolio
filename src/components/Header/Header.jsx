@@ -14,7 +14,7 @@ function Header({wheel}) {
   // appliquer une classe liste ou navbar en fonction de showLinks dans le parent
 
   return (
-    <div className={wheel ? "header_container" : "displayNone"}>
+    <div className={wheel ? "header_container" : "header_hide"}>
       <a href="#home">
         <img src={logo} alt="aurelien brethes logo" id="logo_header" />
       </a>

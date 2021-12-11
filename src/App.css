@@ -62,7 +62,7 @@ main{
     margin-bottom: 10vh;
     color: var(--color-white);
     text-shadow: 1px 1px var(--color-pink);
-    width: 100%;
+    width: 90%;
 }
 
 .App h2 {
