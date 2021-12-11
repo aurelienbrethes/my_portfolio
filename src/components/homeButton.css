@@ -51,6 +51,15 @@
     border-radius: 20px;
 }
 
+@media screen and (max-width: 600px) {
+
+    .homeButton {
+        height: 80px;
+        width: 38vw;
+        margin-top: 30px;
+    }
+}
+
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }

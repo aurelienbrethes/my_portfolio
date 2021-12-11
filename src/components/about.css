@@ -56,3 +56,20 @@
         max-height: inherit;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    .card_container{
+        width: 70%;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .card_container p {
+        font-size: 17px;
+    }
+
+    .card_container p a {
+        font-size: 7px;
+    }
+}

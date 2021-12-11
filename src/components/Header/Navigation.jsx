@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './navigation.css';
 
 function Navigation({showLinks}) {

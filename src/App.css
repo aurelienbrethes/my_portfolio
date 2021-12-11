@@ -31,7 +31,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.App {   
+.App {
     overflow-y: hidden;
     background: linear-gradient(0deg, rgba(27, 27, 27, 0.98), rgba(27, 27, 27, 0.85)), url("./components/retro_back.jpg");
     background-size: cover;
@@ -40,7 +40,7 @@ html {
 }
 
 main{
-    width:90%;
+    width:100%;
 }
 
 .App h1, h2, h3, button {
