@@ -1,10 +1,5 @@
-.project_container{
-    width: 100%;
-    height: 100%;
-}
-
 .mini_card{
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,24 +13,24 @@
     border-right: solid 3px var(--color-pink);
 }
 
-.project_container img {
+.mini_card img {
     height: auto ;
     max-width: 100%;
 }
 
-.project_container button{
+.mini_card button{
     cursor: pointer;
     width: 100%;
     padding: 10px 0px 10px 0px;
     background-color: var(--color-white);
 }
 
-.modal{
+/* .modal{
     position: absolute;
     margin-top: 50px;
     width: 100%;
     height: 100%; 
-}
+} */
 
 
 @media screen and (max-width: 1010px) {
@@ -47,8 +42,19 @@
         height : 3vh
     }
 
-    .project_container img {
+    .mini_card img {
         height: 40% ;
         max-width: 100%;
     }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .mini_card{
+        height : 25vh;
+        width : 30vw;
+        margin-bottom: 20px;
+    }
+
 }
