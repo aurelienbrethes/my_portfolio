@@ -1,14 +1,10 @@
-import './header.css';
-import logo from '../components/logo_header.gif';
+import { useState } from 'react';
+import './navigation.css';
 
-function Header({wheel}) {
+function Navigation({showLinks}) {
 
   return (
-    <div className={wheel ? "header_container" : "displayNone"}>
-      <a href="#home">
-        <img src={logo} alt="aurelien brethes logo" id="logo_header" />
-      </a>
-      <ul>
+       <ul className= { showLinks? 'navbar' : 'navlist'}>
           <li>
             <a href="#home">
               Accueil
@@ -35,8 +31,8 @@ function Header({wheel}) {
             </a>
           </li>     
       </ul>
-    </div>
   );
 }
 
-export default Header;
+export default Navigation;
+

@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 
 function App() {
 
