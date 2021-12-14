@@ -8,8 +8,6 @@ if ( showLinks ){
     brugerClass += " active";
 }
 
-console.log(brugerClass);
-
   return (
       <div className='navbar-burger'>
             <button type="button" onClick={() => setShowLinks(!showLinks)}>

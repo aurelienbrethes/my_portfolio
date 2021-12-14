@@ -11,7 +11,6 @@ function Contact() {
           <li>tel : <a href="tel:+0752668535"> 07 52 66 85 35</a></li>
           <li>GitHub : <a target="_blank" className="contact_link" href=" https://github.com/aurelienbrethes">Lien Github</a></li>
           <li>LinkedIn : <a target="_blank" className="contact_link" href=" https://www.linkedin.com/in/aur%C3%A9lien-brethes-134178169/">Lien LinkedIn</a></li>
-          <li>Wild Code School : <a target="_blank" className="contact_link" href="https://www.wildcodeschool.com/fr-FR">Wild Code School</a></li>
           <li>Mon CV : <a href={cv} download>Cliquez ici pour télécharger</a></li>
         </ul>       
       </section>

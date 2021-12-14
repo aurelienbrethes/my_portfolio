@@ -6,6 +6,7 @@
     max-height: 160vh;
     width: 100vw;
     border-bottom: solid 1px var(--color-blue);
+    padding-top: 100px;
 }
 
 .card_container{
