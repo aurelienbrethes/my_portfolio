@@ -8,7 +8,7 @@
     width: 50vw;
     max-width: 80vh;
     padding: 20px 50px 20px 50px;
-    border-radius: 100px;
+    border-radius: 50px;
     border-bottom: solid 5px var(--color-blue);
     border-right: solid 2px var(--color-blue);
     position: fixed;
@@ -16,6 +16,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: fadeIn 0.4s both;
 }
 
 .modal_container a{
@@ -23,7 +24,13 @@
     justify-content: center;
     cursor: pointer;
     width: 100%;
+    z-index: 8;
 }
+
+.modal_container a:hover{
+    background-color: rgba(71, 71, 71, 0.171);
+}
+
 
 .close_modal{
     position: fixed;
@@ -81,4 +88,9 @@
     .logo_project{
         width: 70%;
     }
+}
+
+@keyframes fadeIn {
+    from { opacity : 0}
+    to { opacity : 1}
 }
