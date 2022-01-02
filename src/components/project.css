@@ -7,7 +7,7 @@
     width: 20vw;
     padding: 20px;
     background-color: var(--color-white);
-    border-radius: 40px;
+    border-radius: 20px;
     border-bottom: solid 5px var(--color-pink);
     border-right: solid 3px var(--color-pink);
 }
@@ -20,8 +20,16 @@
 .mini_card button{
     cursor: pointer;
     width: 100%;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     background-color: var(--color-white);
+    border: solid 1px var(--color-black);
+    border-radius: 8px;
+    transition: border 0.3s, color 0.3s;
+}
+
+.mini_card button:hover {
+    border: solid 1px var(--color-pink);
+    color: var(--color-pink);
 }
 
 

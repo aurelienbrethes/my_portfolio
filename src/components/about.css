@@ -19,9 +19,10 @@
     width: 50%;
     max-width: 80vh ;
     padding: 70px;
-    border-radius: 100px;
+    border-radius: 50px;
     border-bottom: solid 5px var(--color-pink);
     border-right: solid 2px var(--color-pink);
+    animation: revealInfine 3s both;
 }
 
 .card_container a img{
@@ -80,3 +81,20 @@
         margin-top: 50px
     }
 }
+@keyframes revealInfine {
+    from {
+      opacity: 0.3;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+@-webkit-keyframes revealInfine {
+    from {
+      opacity: 0.3;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
