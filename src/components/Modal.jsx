@@ -1,5 +1,5 @@
 import './modal.css';
-import cross from './cross.png';
+import cross from '../assets/cross.png';
 
 const Modal = ({titre, image, description, tech, setShowModal, link, }) => {
 

@@ -1,5 +1,5 @@
 import './contact.css';
-import cv from './ab_cv.pdf';
+import cv from '../assets/ab_cv.pdf';
 
 function Contact() {
   return (

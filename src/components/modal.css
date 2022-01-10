@@ -28,7 +28,8 @@
 }
 
 .modal_container a:hover{
-    background-color: rgba(71, 71, 71, 0.171);
+    transition: 0.4s;
+    filter : blur(4px)
 }
 
 
