@@ -1,5 +1,5 @@
 import './about.css';
-import fleche from '../components/fleche.gif'
+import fleche from '../assets/fleche.gif'
 
 function About() {
   return (

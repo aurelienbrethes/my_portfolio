@@ -1,5 +1,5 @@
 import './home.css';
-import logo from './logo_homepage.gif';
+import logo from '../assets/logo_homepage.gif';
 import HomeButton from './HomeButton';
 
 function Home() {
@@ -20,7 +20,7 @@ function Home() {
             <HomeButton key={e.id} labelButton={e.labelButton}/>
           </a>
             )}
-      </nav>      
+      </nav>
     </div>
   );
 }

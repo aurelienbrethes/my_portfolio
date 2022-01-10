@@ -1,10 +1,10 @@
 import './projects.css';
 import { useState } from 'react';
 import Project from './Project';
-import lbm from'./lbm_logo.png';
-import liveup from'./liveup_logo.png';
-import cogebois from'./cogebois_logo.png';
-import bct from'./bct_logo.png';
+// import lbm from'./lbm_logo.png';
+import liveup from'../assets/liveup_logo.png';
+import cogebois from'../assets/cogebois_logo.png';
+import bct from'../assets/bct_logo.png';
 
 function Projects() {
 
