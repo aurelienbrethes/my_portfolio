@@ -1,12 +1,10 @@
 .modal_container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background-color: var(--color-white);
-    min-height: 90vh;
-    width: 50vw;
-    max-width: 80vh;
+    min-height: 50vh;
+    width: 80vw;
     padding: 20px 50px 20px 50px;
     border-radius: 50px;
     border-bottom: solid 5px var(--color-blue);
@@ -19,19 +17,46 @@
     animation: fadeIn 0.4s both;
 }
 
+.modal_container h3{
+    margin : 30px 0 40px 0;
+}
+
+.aside_modal_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aside_modal{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.aside_modal h4 {
+  margin-bottom: 30px ;
+}
+
+.aside_modal p {
+    margin-bottom: 30px ;
+  }
+
 .modal_container a{
     display: flex;
     justify-content: center;
     cursor: pointer;
     width: 100%;
     z-index: 8;
+    margin-bottom: 20px;
 }
 
 .modal_container a:hover{
     transition: 0.4s;
     filter : blur(4px)
 }
-
 
 .close_modal{
     position: fixed;
@@ -60,8 +85,9 @@
 @media screen and (max-width: 1010px) {
 
     .modal_container{
-        min-height: inherit;
-        height: 80vh;
+        width : 80vw;
+        height: inherit;
+        min-height: 30vh;
     }
 
     .modal_container p {
@@ -77,8 +103,23 @@
 @media screen and (max-width: 600px) {
 
     .modal_container{
-        height: 80vh;
+        height: auto;
         border-radius: 50px;
+        padding: 20px ;
+    }
+
+    .aside_modal_container {
+        display: flex;
+        flex-direction: column;  
+        width: 100%;      
+    }
+
+    .aside_modal{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .modal_container p {

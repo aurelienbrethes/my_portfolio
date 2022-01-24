@@ -14,7 +14,7 @@ import tailwind from '../assets/tailwind.png';
 
 function Skills() {
   return (
-    <div className="skills_container" id="skills">
+    <section className="skills_container" id="skills">
       <h1>Technologies utilisées</h1>
       <div className="column_container">
         <aside className="aside_container">
@@ -45,7 +45,7 @@ function Skills() {
           </div>
         </aside>
       </div>        
-    </div>
+    </section>
   );
 }
 
