@@ -2,7 +2,7 @@ import './project.css';
 import { useState } from 'react';
 import Modal from './Modal';
 
-function Project({titre, tech, image, description, link, github }) {
+function Project({titre, tech, image, description, link, github, date }) {
 
     const [showModal, setShowModal] = useState(false);
 
@@ -29,6 +29,7 @@ function Project({titre, tech, image, description, link, github }) {
                 setShowModal={setShowModal}
                 link={link}
                 github={github}
+                date={date}
                 />
         </div>        
     </div>

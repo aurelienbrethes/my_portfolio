@@ -1,7 +1,7 @@
 import './modal.css';
 import cross from '../assets/cross.png';
 
-const Modal = ({titre, image, description, tech, setShowModal, link, github }) => {
+const Modal = ({titre, image, description, tech, setShowModal, link, github, date }) => {
 
     const handleParentsClick = () => {
         setShowModal(false)
@@ -17,6 +17,7 @@ const Modal = ({titre, image, description, tech, setShowModal, link, github }) =
                 <h3>{titre}</h3>
                 <div className='aside_modal_container'>
                     <aside className="aside_modal">
+                        <p>Date de lancement : {date}</p>
                         <a href={link} target="_blank" rel="noopener noreferrer">
                             <img src={image} id="logo_project" alt="logo du projet"/>
                         </a>
@@ -27,7 +28,7 @@ const Modal = ({titre, image, description, tech, setShowModal, link, github }) =
                         <h4>Description</h4>
                         <p>{description}</p>
                         {github[0] && 
-                        <h4>Lien Github</h4> }                       
+                        <h4>Liens Github</h4> }                       
                         {github[0] && 
                         <a href={github[0]}>Front : Cliquer ici</a> }
                         {github[1] && 

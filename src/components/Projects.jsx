@@ -11,7 +11,9 @@ import manomano from "../assets/manomano_logo.png";
 const myProjects = [
   {
   titre : "Cogebois",
-  image : cogebois, link : "https://cogebois.com/" ,
+  date : "09/2020",
+  image : cogebois, 
+  link : "https://cogebois.com/" ,
   github : ["", ""],
   tech : "No-code, Wordpress",
   description : "Site vitrine pour une entreprise de construction de maisons bois. Réalisé en no-code avec Wordpress ( et le template Avada ). Optimisé SEO à la demande du client"
@@ -19,6 +21,7 @@ const myProjects = [
   // {titre : "La Belle Miche", image : lbm, tech :"HTML, CSS, Javascript", description : "Premier site réalisé lors de la formation à la wild code school, entièrement en vanilla. Le contenu est bien évidament à prendre au second degré !"},
   {
   titre : "Blind Crash Test",
+  date : "11/2021",
   image : bct,
   github : ["https://github.com/aurelienbrethes/Blind_Crash_Test", ""],
   link : "https://marie5060.github.io/Blind-Crash-Test/",
@@ -27,6 +30,7 @@ const myProjects = [
   },
   {
   titre : "Live Up (Hackathon)",
+  date : "11/2021",
   image : liveup,
   github : ["https://github.com/aurelienbrethes/Liveup", "https://github.com/aurelienbrethes/hackathon_liveUp_back"],
   link : "https://aurelienbrethes.github.io/Liveup/",
@@ -35,6 +39,7 @@ const myProjects = [
   },
   {
     titre : "ManoMano (Hackathon)",
+    date : "01/2022",
     image : manomano, 
     link : "" ,
     github : ["https://github.com/aurelienbrethes/hackathon_manomano_front", "https://github.com/matthieudubo/hackathon_manomano_back"],
@@ -43,6 +48,7 @@ const myProjects = [
     },
   {
     titre : "Mon Carnet",
+    date : "12/2021",
     image : moncarnet, 
     link : "" ,
     github : ["https://github.com/Jimmyganci/moncarnet-frontend", "https://github.com/Jimmyganci/moncarnet-backend"],
@@ -71,6 +77,7 @@ function Projects() {
             link={e.link}
             setClose={setClose}
             github={e.github}
+            date={e.date}
             />
           </div>
         )         
