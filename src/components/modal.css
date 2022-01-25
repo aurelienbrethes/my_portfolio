@@ -111,26 +111,32 @@
 @media screen and (max-width: 600px) {
 
     .modal_container{
-        overflow-y: scroll;
-        height: inherit;
+        display: inherit;
+        height: 80%;
         border-radius: 30px;
         padding: 15px ;
-        justify-content: center;
         min-height: inherit;
-        max-height: inherit;
-        
+        max-height: inherit; 
+        overflow-y: scroll;       
+    }
+
+    .modal_container section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;          
     }
 
     .modal_container h3{
-        margin : inherit;
+        margin : 15px 0 15px 0;
     }
 
-    .aside_modal_container {
-        
+    .aside_modal_container {        
         display: flex;
         flex-direction: column;  
         width: 100%; 
-        height: inherit;     
+        height: 100%; 
+        align-items: center;
+        justify-content: space-around;
     }
 
     .aside_modal{
@@ -139,6 +145,7 @@
         align-items: center;
         width: 90%;
         height: inherit;
+        padding: 0px;
     }
 
     .modal_container p {
@@ -148,6 +155,12 @@
 
     .logo_project{
         width: 70%;
+    }
+
+    #cross{
+        height: 30px;
+        cursor: pointer;
+        align-self: center;
     }
 }
 
