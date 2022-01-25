@@ -32,11 +32,10 @@ html {
 }
 
 .App {
-    overflow-y: hidden;
     background: linear-gradient(0deg, rgba(27, 27, 27, 0.98), rgba(27, 27, 27, 0.85)), url("./assets//retro_back.jpg");
     background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
+    width: 100%;
 }
 
 main{
