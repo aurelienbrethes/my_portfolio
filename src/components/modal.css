@@ -57,7 +57,7 @@
 
 .modal_container a:hover{
     transition: 0.4s;
-    filter : blur(4px)
+    filter : blur(3px)
 }
 
 .close_modal{
@@ -111,11 +111,14 @@
 @media screen and (max-width: 600px) {
 
     .modal_container{
+        overflow-y: scroll;
         height: inherit;
         border-radius: 30px;
-        padding: 20px ;
-        overflow-y: scroll;
+        padding: 15px ;
         justify-content: center;
+        min-height: inherit;
+        max-height: inherit;
+        
     }
 
     .modal_container h3{
@@ -123,6 +126,7 @@
     }
 
     .aside_modal_container {
+        
         display: flex;
         flex-direction: column;  
         width: 100%; 
