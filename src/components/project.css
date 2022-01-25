@@ -55,10 +55,11 @@
         height : 25vh;
         width : 30vw;
         margin-bottom: 20px;
+        padding: 15px;
     }
 
     .mini_card h3 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
