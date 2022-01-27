@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './about.css';
-// import Inspiration from './Inspiration';
 
 const inspirations = [
   {
