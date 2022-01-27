@@ -18,6 +18,12 @@
     animation: fadeIn 0.4s both;
 }
 
+.modal_container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .modal_container h3{
     margin : 30px 0 40px 0;
 }
@@ -76,7 +82,7 @@
 }
 
 #cross{
-    height: 40px;
+    height: 30px;
     cursor: pointer;
 }
 
@@ -155,12 +161,6 @@
 
     .logo_project{
         width: 70%;
-    }
-
-    #cross{
-        height: 30px;
-        cursor: pointer;
-        align-self: center;
     }
 }
 
