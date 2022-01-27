@@ -13,7 +13,7 @@ const Modal = ({titre, image, description, tech, setShowModal, link, github, dat
 
     return(
         <main className = "close_modal" role="button" onClick={() => handleParentsClick() }>
-            <body className="modal_container" onClick={(e) => handleChildClick(e)}>
+            <div className="modal_container" onClick={(e) => handleChildClick(e)}>
                 <section>                   
                     <h3>{titre}</h3>
                     <div className='aside_modal_container'>
@@ -38,7 +38,7 @@ const Modal = ({titre, image, description, tech, setShowModal, link, github, dat
                     </div>           
                     <img src={cross} alt="cross" id="cross" onClick={() => setShowModal(false)} />
                 </section>
-            </body>  
+            </div>  
         </main>
     )
 }
