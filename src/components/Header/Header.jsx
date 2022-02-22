@@ -8,11 +8,6 @@ function Header({wheel}) {
 
   const [showLinks, setShowLinks] = useState(false);
 
-  // Créer un composant burger
-  // créer un composant navigation
-  // faire apparaitre le burger en media querie
-  // appliquer une classe liste ou navbar en fonction de showLinks dans le parent
-
   return (
     <div className={wheel ? "header_container" : "header_hide"}>
       <a href="#home">
