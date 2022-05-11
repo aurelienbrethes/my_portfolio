@@ -12,6 +12,7 @@ import typescript from "../assets/typescript.png";
 import tailwind from "../assets/tailwind.png";
 import figma from "../assets/figma.jpg";
 import prisma from "../assets/prisma.jpg";
+import nextjs from "../assets/next-js.svg";
 
 function Skills() {
   return (
@@ -23,6 +24,7 @@ function Skills() {
           <div className="logo_container">
             <img src={vanilla} id="vanilla" alt="vanilla" />
             <img src={react} alt="react" />
+            <img src={nextjs} alt="nextjs" />
             <img src={typescript} alt="typescript" />
             <img src={tailwind} alt="tailwind" />
           </div>

@@ -1,25 +1,24 @@
-import './home.css';
-import logo from '../assets/logo_homepage.gif';
-import HomeButton from './HomeButton';
+import "./home.css";
+import logo from "../assets/logo_homepage.gif";
+import HomeButton from "./HomeButton";
+
+const homeButtons = [
+  { id: 1, labelButton: "A Propos", buttonLink: "#about" },
+  { id: 2, labelButton: "Mes Projets", buttonLink: "#projects" },
+  { id: 3, labelButton: "Mes Skills", buttonLink: "#skills" },
+  { id: 4, labelButton: "Contactez-moi", buttonLink: "#contact" },
+];
 
 function Home() {
-
-  const homeButtons = [
-    { id:1, labelButton : "A Propos", buttonLink : "#about"},
-    { id:2, labelButton : "Mes Projets", buttonLink : "#projects"},
-    { id:3, labelButton : "Mes Skills", buttonLink : "#skills"},
-    { id:4, labelButton : "Contactez-moi", buttonLink : "#contact"}
-  ]
-  
   return (
     <div className="home_container" id="home">
       <img src={logo} alt="aurelien brethes logo" />
       <nav className="buttons_container">
-        {homeButtons.map( e =>
+        {homeButtons.map((e) => (
           <a key={e.id} href={e.buttonLink}>
-            <HomeButton key={e.id} labelButton={e.labelButton}/>
+            <HomeButton key={e.id} labelButton={e.labelButton} />
           </a>
-            )}
+        ))}
       </nav>
     </div>
   );
