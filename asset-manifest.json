@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.a2dc2137.chunk.css",
-    "main.js": "/my_portfolio/static/js/main.d25b54b3.chunk.js",
-    "main.js.map": "/my_portfolio/static/js/main.d25b54b3.chunk.js.map",
+    "main.css": "/my_portfolio/static/css/main.c6fb75be.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.d1b207bf.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.d1b207bf.chunk.js.map",
     "runtime-main.js": "/my_portfolio/static/js/runtime-main.200888d0.js",
     "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.200888d0.js.map",
     "static/js/2.84d35715.chunk.js": "/my_portfolio/static/js/2.84d35715.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.43fd89aa.chunk.js": "/my_portfolio/static/js/3.43fd89aa.chunk.js",
     "static/js/3.43fd89aa.chunk.js.map": "/my_portfolio/static/js/3.43fd89aa.chunk.js.map",
     "index.html": "/my_portfolio/index.html",
-    "static/css/main.a2dc2137.chunk.css.map": "/my_portfolio/static/css/main.a2dc2137.chunk.css.map",
+    "static/css/main.c6fb75be.chunk.css.map": "/my_portfolio/static/css/main.c6fb75be.chunk.css.map",
     "static/js/2.84d35715.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.84d35715.chunk.js.LICENSE.txt",
-    "static/media/aurelienbrethes.51ccd285.pdf": "/my_portfolio/static/media/aurelienbrethes.51ccd285.pdf",
+    "static/media/aurelienbrethes.daf39d5c.pdf": "/my_portfolio/static/media/aurelienbrethes.daf39d5c.pdf",
     "static/media/bct_logo.ffa44ea0.png": "/my_portfolio/static/media/bct_logo.ffa44ea0.png",
     "static/media/cogebois_logo.1f2a3d3b.png": "/my_portfolio/static/media/cogebois_logo.1f2a3d3b.png",
     "static/media/cross.0be76b16.png": "/my_portfolio/static/media/cross.0be76b16.png",
@@ -24,6 +24,7 @@
     "static/media/logo_homepage.3f63b274.gif": "/my_portfolio/static/media/logo_homepage.3f63b274.gif",
     "static/media/manomano_logo.78541707.png": "/my_portfolio/static/media/manomano_logo.78541707.png",
     "static/media/moncarnet_logo.45685ce1.png": "/my_portfolio/static/media/moncarnet_logo.45685ce1.png",
+    "static/media/next-js.1b2b52c0.svg": "/my_portfolio/static/media/next-js.1b2b52c0.svg",
     "static/media/nodejs.17c6df3f.png": "/my_portfolio/static/media/nodejs.17c6df3f.png",
     "static/media/postman.3dcc1a41.png": "/my_portfolio/static/media/postman.3dcc1a41.png",
     "static/media/prisma.8b8ebdfe.jpg": "/my_portfolio/static/media/prisma.8b8ebdfe.jpg",
@@ -36,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.200888d0.js",
     "static/js/2.84d35715.chunk.js",
-    "static/css/main.a2dc2137.chunk.css",
-    "static/js/main.d25b54b3.chunk.js"
+    "static/css/main.c6fb75be.chunk.css",
+    "static/js/main.d1b207bf.chunk.js"
   ]
 }
